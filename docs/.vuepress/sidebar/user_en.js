@@ -1,67 +1,71 @@
 module.exports = function () {
   return [
     {
-      title: 'NumPy 介绍',
+      title: 'Setting up',
       collapsable: true,
       sidebarDepth: 3,
       children: [
-        ['/user/setting-up', 'NumPy 介绍']
+        ['/en/user/setting-up', 'Setting up']
       ]
     },
     {
-      title: '快速入门教程',
+      title: 'Quickstart tutorial',
       collapsable: true,
       sidebarDepth: 3,
       children: [
-        ['/user/quickstart', '快速入门教程']
+        ['/en/user/quickstart', 'Quickstart tutorial']
       ]
     },
     {
-      title: '基础知识',
+      title: 'NumPy basics',
       collapsable: true,
       sidebarDepth: 3,
       children: [
-        ['/user/basics/types', '数据类型'],
-        ['/user/basics/creation', '创建数组'],
-        ['/user/basics/io', '输入输出'],
-        ['/user/basics/indexing', '索引'],
-        ['/user/basics/broadcasting', '广播'],
-        ['/user/basics/byteswapping', '字节交换'],
-        ['/user/basics/rec', '结构化数组'],
-        ['/user/basics/dispatch', '编写自定义数组容器'],
-        ['/user/basics/subclassing', '子类化ndarray']
+        ['/en/user/basics/types', 'Data types'],
+        ['/en/user/basics/creation', 'Array creation'],
+        ['/en/user/basics/io', 'I/O with NumPy'],
+        ['/en/user/basics/indexing', 'Indexing'],
+        ['/en/user/basics/broadcasting', 'Broadcasting'],
+        ['/en/user/basics/byteswapping', 'Byte-swapping'],
+        ['/en/user/basics/rec', 'Structured arrays'],
+        ['/en/user/basics/dispatch', 'Writing custom array containers'],
+        ['/en/user/basics/subclassing', 'Subclassing ndarray']
       ]
     },
     {
-      title: '其他杂项',
+      title: 'Miscellaneous',
       collapsable: true,
       sidebarDepth: 3,
       children: [
-        ['/user/miscellaneous', '其他杂项']
+        ['/en/user/misc', 'Miscellaneous']
       ]
     },
     {
-      title: '与Matlab比较',
+      title: 'NumPy for Matlab users',
       collapsable: true,
       sidebarDepth: 3,
       children: [
-        ['/user/numpy_for_matlab_users', 'NumPy对于Matlab用户']
+        ['/en/user/numpy_for_matlab_users', 'NumPy for Matlab users']
       ]
     },
     {
-      title: '从源代码构建',
+      title: 'Building from source',
       collapsable: true,
       sidebarDepth: 3,
       children: [
-        ['/user/building', '从源代码构建']
+        ['/en/user/building', 'Building from source']
       ]
     },
     {
-      title: '使用NumPy的C-API',
+      title: 'Using NumPy C-API',
       collapsable: true,
       sidebarDepth: 3,
       children: [
-        ['/user/c_info', '目录']
+        ['/en/user/c-info/', 'Index'],
+        ['/en/user/c-info/how-to-extend', 'How to extend NumPy'],
+        ['/en/user/c-info/python-as-glue', 'Using Python as glue'],
+        ['/en/user/c-info/ufunc-tutorial', 'Writing your own ufunc'],
+        ['/en/user/c-info/beyond-basics', 'Beyond the Basics']
       ]
     }
   ]
